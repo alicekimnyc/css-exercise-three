@@ -1,18 +1,38 @@
+*, *:before, *:after {
+box-sizing: border-box;
+}
 body {
-  background-color: #333;
-  font-family: sans-serif;
-  font-size: 10px;
+  {}
+  margin: 0;
+	padding: 0;
+	border: 0;
+  width: 420px;
+font: inherit;
+font-size: 16px;
+	vertical-align: baseline;
+  background-color: #fffff;
+  .header h1 {
+  font-size: 2em
+  color:#000000;}
+    text-align:left;
+  .header h3 {
+    font-size: 20px;
+    color:#000000;
+    text-align:left;
+}
 }
 
 .container {
   margin: 0 auto;
   width: 420px;
+  display: block;
+  float: left;
 }
 
 nav {
+}
   margin: 0 auto;
   padding: 10px 0 15px 15px;
-  position: fixed;
   width: 420px;
 }
 
