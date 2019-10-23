@@ -1,43 +1,37 @@
 *, *:before, *:after {
-box-sizing: border-box;
+  box-sizing: border-box;
 }
+
 body {
   margin: 0;
-	padding: 0;
-	border: 0;
+  padding: 0;
+  border: 0;
   width: 420px;
-font: inherit;
-font-size: 16px;
-	vertical-align: baseline;
+  font: inherit;
+  font-size: 16px;
+  vertical-align: baseline;
   background-color: #dadada;
-  .header h1 {
-    font-size: 3em
-    color:#000000;}
-      text-align:left;
-  }
+  text-align:left;
+}
+.header h1 {
+  font-size: 3em;
+  color:#000000;
+}
 .header h3 {
-      font-size: 1em;
-      color:#000000;
-      text-align:left;
-      .header h1 {
-      font-size: 3em
-      color:#000000;}
-        text-align:left;
-  .header h3 {
-        font-size: 1em;
-        color:#000000;
-        text-align:left;
+  font-size: 1em;
+  color: #000000;
+  text-align: left;
 }
 
-.container {
-  margin: 0 auto;
-  width: 420px;
-  float: left;
-  background-color: black;
-}
+  .container {
+    margin: 0 auto;
+    width: 420px;
+    float: left;
+    background-color: dadada;
+  }
 
-nav {
-}
+  nav {}
+
   margin: 0 auto;
   padding: 10px 0 15px 15px;
   width: 420px;
@@ -53,6 +47,7 @@ nav {
   display: inline-block;
   width: 390px;
 }
+
 .arrow {
   display: inline-block;
 }
