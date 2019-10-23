@@ -30,8 +30,7 @@ body {
     background-color: dadada;
   }
 
-  nav {}
-
+  nav {
   margin: 0 auto;
   padding: 10px 0 15px 15px;
   width: 420px;
