@@ -8,7 +8,7 @@ body {
   background-color: #dadada;
 }
 h1{
-  font-size: 24px;
+  font-size: 20px;
   color: #000000;
 }
 h3{
@@ -17,13 +17,13 @@ h3{
   color: #000000;
 }
 
-  restaurant-list {
+.restaurant-list {
       margin: 0 auto;
       width: 100%;
-      padding: 50px;
-  }
-  location {
+}
+.location {
     display: inline-block;
+    border-bottom: 1px solid #565656;
     width: 100%;
   }
 }
@@ -36,7 +36,7 @@ nav {
   display: block;
   width: 100%;
   background-color: #000000;
-  margin: 10px;
+  padding: 10px;
 }
 
 .container {
@@ -47,13 +47,11 @@ nav {
   display: inline-block;
   width: 80%;
   background-color: #dadada;
-  border-bottom: 1px solid #565656;
   padding: 10px 0 15px 15px;
 }
 
 .arrow {
   display: inline;
   width: 20%;
-  border-bottom: 1px solid #565656;
   padding: 10px 0 15px 15px;
 }
