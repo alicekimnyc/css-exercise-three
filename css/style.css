@@ -3,50 +3,53 @@
 }
 
 body {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  width: 420px;
-  font: inherit;
-  font-size: 16px;
+  font-size: 11px;
   vertical-align: baseline;
   background-color: #dadada;
-  text-align:left;
 }
-.header h1 {
-  font-size: 3em;
-  color:#000000;
-}
-.header h3 {
-  font-size: 1em;
-  color: #000000;
-  text-align: left;
-}
-
-  .container {
-    margin: 0 auto;
-    width: 420px;
-    float: left;
-    background-color: dadada;
+  restaurant-list {
+      margin: 0 auto;
+      width: 100%;
+      padding: 50px;
   }
+  location {
+    display: inline-block;
+    width: 100%;
+  }
+}
 
-  nav {
+.header h1 {
+  font-size: 18px;
+  color: #000000;
+}
+
+.header h3 {
+  font-size: 11px;
+  color: #000000;
+}
+
+nav {
   margin: 0 auto;
   padding: 10px 0 15px 15px;
-  width: 420px;
+  width: 100%;
+  float: left;
 }
-
-.restaurant-list {
-  padding-top: 50px;
-  border-radius: 5px;
-  padding: 2px 8px;
+.box1 {
+  background-color: #000000;
+  border: 5px solid #ff0000;
+  margin: 50px;
+  width: 250px;
 }
-
+.arrow-left {
+  display: block;
+  width: 20%;
+}
 .content {
   display: inline-block;
-  width: 390px;
+  width: 80%;
 }
 
 .arrow {
-  display: inline-block;
+  display: inline;
+  width: 100%;
 }
