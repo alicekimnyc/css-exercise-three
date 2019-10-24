@@ -3,10 +3,20 @@
 }
 
 body {
-  font-size: 11px;
+  font-size: 14px;
   vertical-align: baseline;
   background-color: #dadada;
 }
+h1{
+  font-size: 24px;
+  color: #000000;
+}
+h3{
+  font-size: 18px;
+  font-weight: bold;
+  color: #000000;
+}
+
   restaurant-list {
       margin: 0 auto;
       width: 100%;
@@ -17,39 +27,33 @@ body {
     width: 100%;
   }
 }
-
-.header h1 {
-  font-size: 18px;
-  color: #000000;
-}
-
-.header h3 {
-  font-size: 11px;
-  color: #000000;
-}
-
 nav {
   margin: 0 auto;
-  padding: 10px 0 15px 15px;
-  width: 100%;
-  float: left;
-}
-.box1 {
   background-color: #000000;
-  border: 5px solid #ff0000;
-  margin: 50px;
-  width: 250px;
+  width: 100%;
 }
 .arrow-left {
   display: block;
-  width: 20%;
+  width: 100%;
+  background-color: #000000;
+  margin: 10px;
 }
+
+.container {
+  width: 420px;
+}
+
 .content {
   display: inline-block;
   width: 80%;
+  background-color: #dadada;
+  border-bottom: 1px solid #565656;
+  padding: 10px 0 15px 15px;
 }
 
 .arrow {
   display: inline;
-  width: 100%;
+  width: 20%;
+  border-bottom: 1px solid #565656;
+  padding: 10px 0 15px 15px;
 }
