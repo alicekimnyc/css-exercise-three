@@ -4,6 +4,7 @@
 
 body {
   font-size: 14px;
+  color: #000000;
   line-height: 1.5;
   background-color: #333;
   font-family: sans-serif;
@@ -17,8 +18,9 @@ body {
     display: inline-block;
     border-bottom: 1px solid #565656;
     width: 100%;
+    background-color: #dadada;
 }
-.location:hover, .content:hover{
+.location:hover{
     background-color: #8C8C8C;
 }
 nav {
@@ -29,37 +31,30 @@ nav {
 .arrow-left {
   position: top;
   font-size: 9px;
-  width: 100%;
-  background-color: #000000;
   padding: 15px;
 }
 
 .container {
   width: 420px;
-  background-color: #dadada;
   margin: auto;
 }
 
 .content {
   display: inline-block;
   width: 90%;
-  background-color: #dadada;
   padding: 15px 0 15px 15px;
 }
 .content h1{
   font-size: 18px;
   font-weight: bold;
-  color: #000000;
 }
 .content h3{
   font-size: 14px;
-  color: #000000;
 }
 .arrow{
   float: right;
   position: relative;
   top: 15px;
-  width: 10%;
   font-size: 9px;
-  padding: 15px 0 15px 15px;
+  padding: 15px 10px 15px 15px;
 }
